@@ -1,0 +1,104 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    text-align: center;
+}
+
+body
+{
+    background-color: blueviolet;
+}
+
+.container
+{
+    max-width: 420px;
+    margin: auto;
+    padding: 2rem;
+    background-color: white;
+}
+
+.choices
+{
+    padding: 1.5rem;
+    display:flex;
+    gap: 2rem;
+    justify-content:center;
+    flex-wrap: wrap;
+
+
+}
+
+.choice
+{
+    background-color:white;
+    padding: 0.8rem;
+    border-radius: 6px;
+    border: 0.5px solid black;
+}
+
+.choice>p
+{
+font-weight: 600;
+
+}
+
+.choice:hover
+{
+ border: 1px solid blueviolet;
+ cursor: pointer;
+}
+
+.score
+{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.players
+{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+}
+
+#user-move
+{
+    background-color: yellow;
+    padding: 8px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+#robot-move
+{
+    background-color: yellow;
+    padding: 8px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.you,.robot
+{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#msg
+{
+    color: black;
+    margin-top: 2rem;
+    font-size: 18px;
+    filter: drop-shadow(2px 2px 2px blueviolet);
+    
+}
+
+
+
